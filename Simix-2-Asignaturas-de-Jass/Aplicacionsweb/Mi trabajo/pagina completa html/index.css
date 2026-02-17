@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #5f5b5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.login-container {
+    width: 320px;
+    height: 550px;
+    background-color: #5f5b5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo */
+.logo {
+    width: 225px;
+    margin-bottom: 15px;
+}
+
+/* Título */
+h1 {
+    color: #3f6bff;
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin: 10px 0 0 0;
+}
+
+/* Eslogan */
+.eslogan {
+    color: #3f6bff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+/* Botones */
+.btn {
+    width: 220px;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login,
+.signup {
+    background-color: #e5e5e5;
+    color: #3f6bff;
+}
+
+
+
+
+
